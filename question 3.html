@@ -1,0 +1,16 @@
+ 
+
+<p > next christmas is after</p>
+<p id= "demo"> </p>
+<p> days</p>
+
+<script> 
+
+    const d= new Date();
+    
+    const m = (11-d.getMonth())*30;
+    const da= 25 - d.getDate();
+     const l= m+da;
+     console.log(l);
+     document.getElementById("demo").innerHTML= l;
+ </script>
