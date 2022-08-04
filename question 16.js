@@ -1,4 +1,4 @@
-
+// Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50.
 function check(){
     var number1= Number(document.getElementById("num1").value);
     var number2= Number(document.getElementById("num2").value);
